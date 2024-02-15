@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    display: grid;
+}
+
+
+/* TO VISUALIZE STYLES */
+svg {
+    width: 15px;
+}
+
+img {
+    width: 50px;
+}
