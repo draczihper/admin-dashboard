@@ -35,7 +35,7 @@ header .search-bar {
 }
 
 .search-bar svg {
-
+    width: 30px;
 }
 
 .search-bar input {
