@@ -39,7 +39,7 @@ header .search-bar {
 }
 
 .search-bar input {
-    
+    all: unset;
 }
 
 
