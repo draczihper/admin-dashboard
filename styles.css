@@ -27,11 +27,8 @@ header .profile {
 }
 
 header .search-bar {
-    display: grid;
+    display: flex;
     align-items: center;
-    grid-auto-flow: column;
-    grid-gap: 0;
-    margin: 0;;
 }
 
 .search-bar svg {
