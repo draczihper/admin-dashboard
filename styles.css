@@ -40,6 +40,7 @@ header .search-bar {
     border: 1px solid #b6b6b6;
     border-radius: 12px;
     padding: 3px;
+    width: 600px;
 }
 
 
