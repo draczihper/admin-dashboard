@@ -40,6 +40,9 @@ header .search-bar {
 
 .search-bar input {
     all: unset;
+    border: 1px solid #b6b6b6;
+    border-radius: 12px;
+    padding: 3px;
 }
 
 
