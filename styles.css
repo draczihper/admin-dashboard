@@ -26,7 +26,8 @@ header {
 }
 
 header .profile {
-
+    display: flex;
+    align-items: flex-start;
 }
 
 header .search-bar {
@@ -47,6 +48,10 @@ header .search-bar {
     background-color: #E2E8F0;
 }
 
+.notify {
+    display: flex;
+    align-items: center;
+}
 
 /* TO VISUALIZE STYLES */
 svg {
