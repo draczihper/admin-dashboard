@@ -27,7 +27,8 @@ header {
 
 header .profile {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    align-self: flex-start;
 }
 
 header .search-bar {
