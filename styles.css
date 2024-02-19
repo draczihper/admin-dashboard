@@ -69,6 +69,28 @@ header .search-bar {
 .notify span#name {
     font-weight: 700;
 }
+
+.username {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 300px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
 /* TO VISUALIZE STYLES */
 svg {
     width: 15px;
