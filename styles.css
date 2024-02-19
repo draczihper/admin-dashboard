@@ -22,7 +22,7 @@ header {
     background-color: #ffffff;
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-    margin: 30px;
+    margin: 0px;
 }
 
 header .profile {
@@ -47,13 +47,27 @@ header .search-bar {
     width: 600px;
     margin-left: 10px;
     background-color: #E2E8F0;
+    margin-right: 80px;
 }
 
 .notify {
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
+.notify svg {
+    width: 20px;
+}
+
+.notify img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.notify span#name {
+    font-weight: 700;
+}
 /* TO VISUALIZE STYLES */
 svg {
     width: 15px;
