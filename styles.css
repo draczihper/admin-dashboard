@@ -79,11 +79,27 @@ header .search-bar {
 .user {
     display: flex;
     align-items: center;
+
 }
 
 .user img {
     width: 50px;
     border-radius: 50%;
+}
+
+.user .greet {
+    margin-left: 15px;
+}
+
+.greet p {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.greet .user-name {
+    font-weight: 700;
+    margin-top: 5px;
+    font-size: 1.2rem;
 }
 
 
