@@ -73,7 +73,7 @@ header .search-bar {
 .username {
     display: flex;
     justify-content: space-between;
-    margin-right: 300px;
+    margin-right: 170px;
 }
 
 .user {
@@ -99,10 +99,24 @@ header .search-bar {
 .greet .user-name {
     font-weight: 700;
     margin-top: 5px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
+.new-share {
+    display: flex;
+    align-self: center;
+    gap: 15px;
 
+}
+
+.new-share > div {
+    background-color: rgb(117, 146, 241);
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 20px;
+    border-radius: 15px;
+}
 
 
 
