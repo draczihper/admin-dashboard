@@ -23,6 +23,8 @@ header {
     background-color: #ffffff;
     grid-column: 2;
     margin: 15px; 
+    width: 100%;
+    box-shadow: 5px 2px 5px #a2a2a2;
 }
 
 header .profile {
