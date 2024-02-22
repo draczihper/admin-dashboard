@@ -155,13 +155,23 @@ aside#one nav {
     margin-top: 40px;
 }
 
-
+aside#one nav svg {
+    width: 15px;
+}
 
 
 aside#one nav li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
     padding-bottom: 15px;
     color: #fff;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+aside#one nav li svg {
+    margin-right: 10px;
 }
 
 
