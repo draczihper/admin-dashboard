@@ -122,13 +122,12 @@ header .search-bar {
 }
 
 aside#one {
-    display: grid;
     grid-column: 1;
     grid-row: 1 / 3;
     padding: 15px;
     background-color: rgb(117, 146, 241);
-
 }
+
 
 aside#one svg {
     fill: #fff;
@@ -151,8 +150,19 @@ aside#one .logo {
     font-size: normal;
 }
 
+aside#one nav {
+    justify-self: center;
+    margin-top: 40px;
+}
 
 
+
+
+aside#one nav li {
+    padding-bottom: 15px;
+    color: #fff;
+    font-weight: 500;
+}
 
 
 
