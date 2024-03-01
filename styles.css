@@ -179,14 +179,14 @@ main {
     padding: 20px 15px; 
     display: grid;
     grid-template-columns: 2fr 1fr;   
-    gap: 10px;
+    gap: 20px;
 }
 
 .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
 }
 
 main div h3 {
@@ -235,13 +235,28 @@ aside#two {
     background-color: white;
     margin-top: 8px;
     border-radius: 5px;
-    padding: 20px 20px;
+    padding: 30px 30px;
 }
 
 .announcement h4 + div > div {
-    margin-bottom: 20px;
-    padding-bottom: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #ddd;
+}
+
+.announcement h4 + div > div:nth-child(3) {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.announcement div > div h3 {
+    font-size: normal;
+}
+
+.announcement div > div p {
+    font-size: 14px;
+    color: #949494;
 }
 
 
