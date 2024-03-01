@@ -24,7 +24,7 @@ header {
     grid-template-rows: 60px 60px;
     background-color: #ffffff;
     grid-column: 2;
-    padding: 15px; 
+    padding: 15px 30px; 
     width: 100%;
     box-shadow: 0px 2px 5px #a2a2a2;
 }
@@ -179,6 +179,7 @@ main {
     padding: 20px 15px; 
     display: grid;
     grid-template-columns: 2fr 1fr;   
+    gap: 10px;
 }
 
 .card-container {
@@ -221,10 +222,28 @@ main div h3 {
 
 }
 
+aside#two {
+    margin-left: 5px;
+}
+
 .announcement {
     display: grid;
     grid-column: 3;
 }
+
+.announcement h4 + div {
+    background-color: white;
+    margin-top: 8px;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+.announcement h4 + div > div {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
 
 
 /* TO VISUALIZE STYLES */
