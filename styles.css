@@ -273,6 +273,18 @@ aside#two {
     padding: 30px;
 }  
 
+.trending > div > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.trending img {
+    width: 50px;
+    border-radius: 50%;
+}
+
 
 
 /* TO VISUALIZE STYLES */
